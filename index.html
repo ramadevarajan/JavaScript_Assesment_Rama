@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        JavaScript Assessment - Rama
+    </title>
+    <link href="style.css" rel="stylesheet"> 
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="left-block">
+        <img src="top-img.jpg" class="top-img">
+        <p>
+            <img src="salesforce.jpg" class="main-img">
+        </p> 
+    </div>
+    <div class="right-block">
+        <h1>Get Started</h1>
+        <h5>Already Have An account?</h5>
+       <a href="Sign-In.html"> <h5 class="sign-in">Sign In</h5></a>
+       <img src="google.jpg">
+       <img src="facebook.jpg">
+       <form name="myForm" class ="myForm" onsubmit="return validateForm()">
+        <label class="required">Name:</label> <br><input type="text" name="fname" required/><br>
+        Gender:<br>
+        <label for="Gender" id="gender">
+        Male<input type="radio" name="gender" value="Male">
+        Female<input type="radio" name="gender" value="Female"> <br>
+        </label>
+        Mobile:<br> <input type="text" name="mobile"><br>
+        Email: <br><input type="text" name="email"><br> 
+        Date Of Birth:<br> <input type="date" name="dob"><br>
+        Password: <br> <input type="password" name="pwd"><br>
+        Confirm Password: <br> <input type="password" name="cpwd"><br>
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+</body>
+</html>
